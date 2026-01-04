@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+@import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
+
+@theme {
+  --color-primary: #021526;
+  --color-secondary: #002a5a;
+
+  /* কাস্টম ফন্ট ফ্যামিলি */
+  --font-lexend: "Lexend", sans-serif;
+  --font-nunito: "Nunito Sans", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply font-nunito bg-slate-950 text-white;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-lexend;
+  }
+}
+
+.btn-primary {
+  @apply px-6 py-2 rounded-full font-medium transition-all duration-300 cursor-pointer;
+
+  background: linear-gradient(135deg, #f700ff 0%, #0011ff 100%);
+  color: #ffffff;
+
+  /* হালকা গ্লো ইফেক্ট */
+  /* box-shadow: 0 4px 15px rgba(173, 255, 47, 0.3); */
+}
+
+/* .btn-primary:hover {
+  @apply background: linear-gradient(135deg, #bcff52 0%, #adff2f 100%);
+  box-shadow: 0 8px 25px rgba(173, 255, 47, 0.5);
+} */
+
+.custom-shadow {
+  box-shadow: 0 0px 25px rgba(111, 0, 255, 0.3);
+}
