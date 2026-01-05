@@ -59,7 +59,7 @@ const Footer = () => {
             </h4>
             <div className="flex gap-4">
               <a
-                href="https://github.com/"
+                href="https://github.com/aktar86"
                 target="_blank"
                 className="p-3 rounded-xl bg-white/5 hover:bg-white/10 hover:text-cyan-400 transition"
               >
@@ -67,7 +67,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="https://linkedin.com/"
+                href="https://www.linkedin.com/in/aktarbd/"
                 target="_blank"
                 className="p-3 rounded-xl bg-white/5 hover:bg-white/10 hover:text-blue-400 transition"
               >
@@ -75,7 +75,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="https://facebook.com/"
+                href="https://facebook.com/aktar5436"
                 target="_blank"
                 className="p-3 rounded-xl bg-white/5 hover:bg-white/10 hover:text-blue-500 transition"
               >
@@ -83,7 +83,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="mailto:yourmail@gmail.com"
+                href="amdaktar86@gmail.com"
                 className="p-3 rounded-xl bg-white/5 hover:bg-white/10 hover:text-fuchsia-400 transition"
               >
                 <Mail size={20} />
