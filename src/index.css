@@ -16,7 +16,7 @@ html {
 
 @layer base {
   body {
-    @apply font-nunito bg-black text-white overflow-x-hidden;
+    @apply font-nunito bg-[#050515] text-white overflow-x-hidden;
   }
   h1,
   h2,

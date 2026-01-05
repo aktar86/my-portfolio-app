@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       {/* Full background wrapper */}
-      <div className="bg-gray-950 overflow-x-hidden">
+      <div className="bg-[#050515] overflow-x-hidden">
         <div className="max-w-7xl mx-auto">
           <Navbar />
           <Hero />

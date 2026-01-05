@@ -140,7 +140,7 @@ const Education = () => {
   return (
     <section
       id="education"
-      className="py-20 border text-white relative overflow-hidden"
+      className="py-20  text-white relative overflow-hidden"
     >
       <div className="max-w-6xl mx-auto px-4">
         {/* Heading */}

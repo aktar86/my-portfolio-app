@@ -4,7 +4,7 @@ import Logo from "../Logo/Logo";
 
 const Footer = () => {
   return (
-    <footer className="relative border overflow-hidden text-white">
+    <footer className="relative  overflow-hidden text-white">
       {/* Glow Background */}
       <div className="absolute inset-0">
         <div className="absolute -top-20 left-1/2 -translate-x-1/2 w-96 h-96 bg-cyan-500/20 blur-[120px]" />
