@@ -43,3 +43,7 @@ html {
 .custom-shadow {
   box-shadow: 0 0px 25px rgba(111, 0, 255, 0.3);
 }
+
+.bg-secondary {
+  @apply bg-linear-to-r from-[#f700ff] to-[#0011ff];
+}

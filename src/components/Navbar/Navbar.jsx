@@ -9,7 +9,7 @@ const Navbar = () => {
       </div>
       <div className="flex items-center gap-5">
         <nav>
-          <ul className="flex space-x-4">
+          <ul className="lg:flex hidden space-x-4">
             <li>
               <a href="#section1"> Hero</a>
             </li>
@@ -18,6 +18,9 @@ const Navbar = () => {
             </li>
             <li>
               <a href="#education"> Education</a>
+            </li>{" "}
+            <li>
+              <a href="#projects"> Projects</a>
             </li>
             <li>
               <a href="#experience"> Experience</a>
