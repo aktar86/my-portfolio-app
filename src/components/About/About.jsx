@@ -2,7 +2,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <section id="about" className="relative text-white py-24 px-5 lg:px-0 ">
+    <section
+      id="about"
+      className="relative border text-white py-24 px-5 lg:px-0 "
+    >
       {/* Subtle Glow */}
       <div className="absolute -top-20 left-1/2 -translate-x-1/2 w-125 h-125 bg-cyan-500/10 blur-[140px] pointer-events-none" />
 

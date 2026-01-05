@@ -111,7 +111,7 @@ const Navbar = () => {
           <div className="relative md:hidden flex items-center gap-2">
             <div
               className={`absolute bg-primary p-5  px-10 ${
-                open ? "-top-200" : "top-10 right-0 text-right"
+                open ? "top-10 right-0 text-right" : "-top-200"
               }`}
             >
               <ul className="md:hidden space-y-5 mb-5">{links}</ul>
@@ -126,7 +126,7 @@ const Navbar = () => {
               </a>
             </div>
             <button className="md:hidden" onClick={() => setOpen(!open)}>
-              {open ? <Menu /> : <X />}
+              {open ? <X /> : <Menu />}
             </button>
           </div>
         </div>

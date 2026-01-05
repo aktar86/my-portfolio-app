@@ -15,7 +15,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="relative text-white py-24 px-5 lg:px-0 overflow-hidden"
+      className="relative border text-white py-24 px-5 lg:px-0 overflow-hidden"
     >
       {/* Soft Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[420px] h-[420px] bg-fuchsia-500/10 blur-[140px] pointer-events-none" />
